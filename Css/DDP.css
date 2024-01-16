@@ -28,6 +28,9 @@ header{
     width: 100%;
     background-color: #000;
     height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 9999999;
 }
 
 header .inner{
@@ -61,7 +64,7 @@ header .inner{
     position: fixed;
     right: -55%;
     top: 0;    
-    z-index: 999;
+    z-index: 9999999999;
     transition: .7s;
 }
 .mobile_top{
@@ -342,7 +345,7 @@ main{
     top: 0;
     bottom: 0;
     background: rgba(0,0,0,0.5); 
-    z-index: 999999999;
+    z-index: 999999999999999;
 }
 .modal {
     width: 420px;
